@@ -15,7 +15,7 @@
     overflow: hidden;
 }
 
-@keyframes waveFloat {
+@keyframes floating {
     0% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
@@ -26,7 +26,7 @@ svg {
     top: 0;
     width: 100%;
     height: auto;
-    animation: waveFloat 6s ease-in-out infinite;
+    animation: floating 6s ease-in-out infinite;
 }
 
 .main {
